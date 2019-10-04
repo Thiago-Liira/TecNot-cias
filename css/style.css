@@ -1,0 +1,127 @@
+/*Formatação padrão*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Times New Roman', Arial, serif;
+    font-size: 14px;
+    line-height: 21px;
+    background: #e6e6e6;
+}
+
+/*Formatação do header*/
+.header{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+.areaMenu, .areaLogo{
+    padding: 10px;
+}
+
+ h1{
+     font-size: 2.5em;
+     color: #204d88;
+}
+
+.branco{
+    color: #4e4e4e;
+}
+
+/*Formatação Padrão*/
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #f7b500;
+}
+
+/*Formatação do menu*/
+.menu{
+    list-style: none;
+    font-size: 16px;
+}
+.menu li{
+    display: inline;
+    padding: 8px 12px;
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+.areaMenu a:hover{
+    background-color: #204d88;
+    color: #e6e6e6;
+}
+
+.areaMenu a:link, .areaMenu a:visited{
+    color: #e6e6e6
+}
+
+/*Area postagem*/
+.areaPrincipal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#areaPostagen{
+    width: 660px;
+    float: left;
+}
+
+.postagen{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white
+}
+
+h2{
+    color: #f7b600;
+}
+
+.dataPostagen{
+    font-size: 10px;
+    line-height: 15px;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#areaLateral{
+    width: 240px;
+    float: right;
+}
+
+/*Conteudo lateral*/
+.ConteudoLateral{
+    background: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+.postagenLateral{
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
